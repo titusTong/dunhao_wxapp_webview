@@ -1,0 +1,26 @@
+.App {
+  text-align: left;
+  padding:20px;
+  height:calc(100vh - 40px)
+}
+
+.uploadContent {
+  height: calc(100vh - 72px);
+  position: relative;
+}
+
+.ant-upload-drag {
+  height: 250px !important;
+}
+
+.ant-upload-list {
+  height: calc(100vh - 322px);
+  padding:10px 0 10px 0;
+  overflow: scroll;
+}
+
+.loadingSpin {
+  position: absolute;
+  top:50%;
+  right:50%;
+}
